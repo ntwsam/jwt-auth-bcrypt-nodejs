@@ -46,10 +46,10 @@ git clone https://github.com/ntwsam/jwt-auth-bcrypt-nodejs.git
 		- after running either `npm start` or `nodemon run dev`, you application will start and you can open your web browser and go to `http://localhost:3000` ( or whatever URL your server run on) to see the result.
 2. It will automatically create database and table for using this project
 	- **Table example** : password will collect by using **hashedpassword**
-		|id|id|email|password|
-		|--|------|------|-----------|
-		 | 1 | 1| test@example.com| $2b$10$cktcNq.U2zxxNxeejQllguymNxu6TzLY7knDJbOsC5c2uLVhxvw6a
-		| 2 | 2| new@example.com| $2b$10$cktcNq.A8llyNgdfgDFGRERG54xu6TzLY7knDJbOsC5c2uLcZww7f
+		|id|email|password|
+		|------|------|-----------|
+		 | 1| test@example.com| $2b$10$cktcNq.U2zxxNxeejQllguymNxu6TzLY7knDJbOsC5c2uLVhxvw6a
+		| 2| new@example.com| $2b$10$cktcNq.A8llyNgdfgDFGRERG54xu6TzLY7knDJbOsC5c2uLcZww7f
 3. Testing Http with **Postman**
 	- **Register**
 		-  use `post` and `localhost:3000/register` to get register new user
